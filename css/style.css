@@ -1,0 +1,507 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact__section{
+    padding: 100px 10px 50px 10px;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-6{
+    width:50%;
+}
+
+.contact__form-wrapepr h4{
+    color: #62544C;
+    font-family: "Josefin Sans", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+}
+
+.bundle__content span,
+.contact__form-wrapepr span{
+    width:150px;
+    display: inline-block;
+    background-color: #f4beab;
+    height: 1px;
+    margin-top: 4px;
+    margin-bottom: 15px;
+}
+.bundle__content span{
+    margin-bottom: 20px;
+}
+.bundle__content h2,
+.contact__form-wrapepr h2{
+    color: #62544C;
+    font-family: "Josefin Sans", Sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+}
+.bundle__content h2:first-child{
+    margin-bottom: 6px;
+}
+.bundle__content h2.highlight{
+    color: #dc7f74;
+    margin-bottom: 5px;
+}
+.bundle__content h2:last-child{
+    color: #aa9582;
+    margin-bottom: 12px;
+}
+.bundle__content img{
+    width:220px;
+}
+.contact__form-wrapepr p{
+    color: #62544C;
+    font-family: "Josefin Sans", Sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 17px;
+    margin-bottom: 30px;
+}
+.form-control{
+    width: 100%;
+    max-width: 500px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+    color: #62544c;
+    background-color: #FFFFFF;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #d2cecd;
+    border-radius: 0px 0px 0px 0px;
+    padding: 12px;
+    margin-bottom: 10px;
+    height: 49.5px;
+}
+.form-control::placeholder{
+    color: #b2aaa7;
+}
+.form-control:focus{
+    box-shadow: inset 0 0 0 1px rgb(0 0 0 / 10%);
+    outline: 0;
+}
+textarea.form-control{
+    height: 168.5px;
+}
+.submit__btn{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:15px;
+    text-transform:uppercase;
+    color: #fff;
+    background-color: #F4BEAB;
+    padding: 15px 40px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+.submit__btn:hover{
+    background: #dc7f74;
+}
+.col-4{
+    width: 32%;
+}
+.content{
+    width: 100%;
+    height:175px;
+    margin: 5.5px 0;
+}
+.contact__content-wrapper .row{
+    gap: 11px;
+}
+.background-overlay{
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.box-1{
+    background-image: url(https://demos.bakerwebdev.net/lillia/wp-content/uploads/sites/18/2020/12/organic-body-care-products-concept-of-zero-waste-4PJTG9Q.jpg);
+    background-position: top right;
+    background-size: cover;
+}
+
+.box-2,
+.box-8{
+    background: #f8e9e2;
+    position: relative;
+}
+.box-2 .background-overlay{
+    background-image: url(https://demos.bakerwebdev.net/lillia/wp-content/uploads/sites/18/2020/12/line-circle-w.png);
+    background-size: 499px auto;
+    opacity: 0.27;
+}
+.box-8 .background-overlay{
+    background-image: url(https://demos.bakerwebdev.net/lillia/wp-content/uploads/sites/18/2020/12/curve.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    opacity: 0.2;
+}
+.box-6,
+.box-4{
+    background: #f4beab;
+    position: relative;
+}
+.box-4 .background-overlay{
+    background-image: url(https://demos.bakerwebdev.net/lillia/wp-content/uploads/sites/18/2020/12/Line-art-faces_11.png);
+    background-size: cover;
+    opacity: 0.2;
+}
+.box-6 .background-overlay{
+    background-image: url(https://demos.bakerwebdev.net/lillia/wp-content/uploads/sites/18/2020/12/face.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.2;
+}
+.box-3{
+    background-color: #f8e9e2;
+    background-image: url(https://demos.bakerwebdev.net/lillia/wp-content/uploads/sites/18/2020/12/beauty-skin-healthy-woman-clean-skin-natural-makeu-JPU4MWL.jpg);
+    background-size: cover;
+}
+.box-5{
+    background-color: #fbf4f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-5-content img{
+    width: 100px;
+    height:41px;
+}
+.box-7{
+    background-image: url(https://demos.bakerwebdev.net/lillia/wp-content/uploads/sites/18/2020/12/black-skin-beauty-woman-healthy-hair-skin-close-af-TRWEMPR.jpg);
+    background-size: cover;
+}
+.box-9{
+    background-color: #f4beab;
+    background-image: url(https://demos.bakerwebdev.net/lillia/wp-content/uploads/sites/18/2020/12/young-cheerful-females-in-tanktops-applying-rejuve-GYMYNA8.jpg);
+    background-size: cover;
+}
+.box-2-content,
+.box-4-content,
+.box-6-content,
+.box-8-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.box-2-content i,
+.box-4-content i,
+.box-6-content i,
+.box-8-content i{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.box-2-content i,
+.box-8-content i{
+    color: #f4beab;
+}
+.box-4-content i,
+.box-6-content i{
+    color: #fff;
+}
+
+.box-2-content span,
+.box-2-content p,
+.box-4-content span,
+.box-4-content p,
+.box-6-content span,
+.box-6-content p,
+.box-8-content span,
+.box-8-content p{
+    font-family: "Josefin Sans", Sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.box-8-content p{
+    text-transform:lowercase;
+}
+.box-8-content span,
+.box-2-content span{
+    color: #dc7f74;
+    margin-bottom: 8px;
+}
+.box-8px-content p,
+.box-2-content p{
+    color: #AA9582;
+    padding: 0 16px;
+    line-height:26px;
+}
+.box-4-content span,
+.box-6-content span{
+    color: #fff;
+    margin-bottom: 8px;
+}
+.box-4-content p,
+.box-6-content p{
+    color: #fff;
+    font-size: 17px;
+}
+.bundle__section{
+    padding: 50px 10px 50px 10px
+}
+.bundle__content{
+    background-color: #f8e9e2;
+    padding: 50px;
+}
+.bundle-img-1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://demos.bakerwebdev.net/lillia/wp-content/uploads/sites/18/2020/12/facial-cosmetics-N6AV5RZ.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bundle__section .col-4{
+    width:32.5%;
+}
+.bundle__section .col-4:not(:last-child){
+    margin-right: 14px;
+}
+.bundle-img-2{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://demos.bakerwebdev.net/lillia/wp-content/uploads/sites/18/2020/12/organic-body-care-products-concept-of-zero-waste-4PJTG9Q.jpg);
+    background-position: center right;
+    background-size: cover;
+}
+.bundle-img-1 h2{
+    position: absolute;
+    width: 151px;
+    max-width: 151px;
+    top: 52px;
+    right: -85px;
+    font-family: "Josefin Sans", Sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    background: #f4beab;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 100%;
+}
+@media (min-width: 1024px) and (max-width:1199px){
+    .container{
+        max-width: 1024px;
+    }
+    .col-6{
+        width: 100%;
+        width: 100%;
+    }
+    .contact__section{
+        padding: 50px 20px 50px 20px;
+    }
+    .form-control{
+        max-width: 100%;
+    }
+    .contact__form-wrapepr,
+    .contact__content-wrapper{
+        padding: 30px;
+    }
+    .content {
+        margin: 5px 0 5px 0;
+    }
+    .box-9{
+        background-position: center center;
+    }
+    .bundle__content{
+        padding:30px;
+    }
+    .bundle__section .col-4:not(:last-child) {
+        margin-right: 12px;
+    }
+}
+
+@media (min-width: 768px) and (max-width:1023px){
+    .container{
+        max-width: 1024px;
+    }
+    .col-6{
+        width: 100%;
+        width: 100%;
+    }
+    .contact__section{
+        padding: 50px 20px 50px 20px;
+    }
+    .form-control{
+        max-width: 100%;
+    }
+    .contact__form-wrapepr,
+    .contact__content-wrapper{
+        padding: 10px;
+    }
+    .contact__content-wrapper{
+        margin-top: 50px;
+    }
+    .content {
+        margin: 5px 0 5px 0;
+    }
+    .bundle__content{
+        padding:30px;
+    }
+    .bundle__section .col-4:not(:last-child) {
+        margin-right: 9px;
+    }
+    .bundle__content img {
+        width:175px;
+    }
+}
+@media (min-width: 576px) and (max-width:767px){
+    .container{
+        max-width: 767px;
+    }
+    .col-6{
+        width: 100%;
+        width: 100%;
+    }
+    .col-4{
+        width: 100%;
+    }
+    .contact__content-wrapper .row{
+        gap: 0;
+    }
+    .contact__section{
+        padding: 50px 0px 50px 0px;
+    }
+    .form-control{
+        max-width: 100%;
+    }
+    .contact__form-wrapepr,
+    .contact__content-wrapper{
+        padding: 30px;
+    }
+    .contact__form-wrapepr{
+        text-align: center;
+    }
+    .submit__btn{
+        width: 100%;
+    }
+    .contact__content-wrapper{
+        margin-top: 50px;
+    }
+    .content {
+        margin: 5px 0 5px 0;
+    }
+    .box-9{
+        background-position: center center;
+    }
+    .bundle__section .col-4{
+        width: 100%;
+    }
+    .bundle__section .col-4:not(:last-child) {
+        margin-right: 0px;
+        margin-bottom: 12px;
+    }
+    .bundle__content{
+        padding:40px 50px 15px 50px;
+    }
+    .bundle__content h2{
+        text-align: center;
+    }
+    .bundle__content span{
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bundle-img-1,
+    .bundle-img-2{
+        height:210px;
+    }
+}
+
+@media (min-width: 320px) and (max-width:575px){
+    .container{
+        max-width: 575px;
+    }
+    .col-6{
+        width: 100%;
+        width: 100%;
+    }
+    .col-4{
+        width: 100%;
+    }
+    .contact__content-wrapper .row{
+        gap: 0;
+    }
+    .contact__section{
+        padding: 40px 0px 40px 0px;
+    }
+    .form-control{
+        max-width: 100%;
+    }
+    .contact__form-wrapepr,
+    .contact__content-wrapper{
+        padding: 20px;
+    }
+    .contact__form-wrapepr{
+        text-align: center;
+    }
+    .submit__btn{
+        width: 100%;
+    }
+    .contact__content-wrapper{
+        margin-top: 20px;
+    }
+    .content {
+        margin: 5px 0 5px 0;
+    }
+    .box-9{
+        background-position: center center;
+    }
+    .bundle__section{
+        padding-top: 0;
+    }
+    .bundle__section .col-4{
+        width: 100%;
+    }
+    .bundle__section .col-4:not(:last-child) {
+        margin-right: 0px;
+        margin-bottom: 12px;
+    }
+    .bundle__content{
+        padding:32px 50px 15px 50px;
+    }
+    .bundle__content h2{
+        text-align: center;
+    }
+    .bundle__content span{
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bundle-img-1,
+    .bundle-img-2{
+        height:210px;
+    }
+}
